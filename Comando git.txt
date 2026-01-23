@@ -1,0 +1,1 @@
+git remote add origin https://github.com/Daniqnn/Jose_Manon_Electiva_2026_C1.git
