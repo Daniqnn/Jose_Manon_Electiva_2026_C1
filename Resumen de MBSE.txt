@@ -1,0 +1,14 @@
+MBSE (Model-Based Systems Engineering) – Explicación simple
+
+MBSE es una forma de trabajar donde, en vez de usar muchos documentos escritos para explicar un sistema, se usan modelos y diagramas.
+
+Esos modelos muestran:
+
+Qué hace el sistema
+Qué partes tiene
+Cómo se conectan
+Cómo se comporta
+
+¿Para qué sirve?
+
+Para entender y diseñar sistemas complejos sin confundirse.
