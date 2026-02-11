@@ -1691,7 +1691,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 139.7) (xy 166.37 139.7)
+			(xy 163.83 138.43) (xy 166.37 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1701,17 +1701,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 41.91) (xy 82.55 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a97db7d-77f7-46c5-b94b-c5a4e51dfdae")
-	)
-	(wire
-		(pts
-			(xy 163.83 137.16) (xy 166.37 137.16)
+			(xy 163.83 135.89) (xy 166.37 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1721,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 39.37) (xy 82.55 39.37)
+			(xy 74.93 39.37) (xy 76.2 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1731,7 +1721,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 134.62) (xy 166.37 134.62)
+			(xy 163.83 140.97) (xy 166.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799e789a-17d8-42ae-8a53-be2a0e6f25a1")
+	)
+	(wire
+		(pts
+			(xy 163.83 133.35) (xy 166.37 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1739,8 +1739,18 @@
 		)
 		(uuid "be9760c1-0145-4106-ab08-9f6090c9b52f")
 	)
+	(wire
+		(pts
+			(xy 144.78 41.91) (xy 147.32 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becf631b-7204-4eea-9b2f-ad0a91517c3e")
+	)
 	(label "12v"
-		(at 166.37 137.16 0)
+		(at 166.37 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1750,7 +1760,7 @@
 		(uuid "6d7f61de-f06f-4ac9-b508-558da51b7c4a")
 	)
 	(label "5v"
-		(at 166.37 139.7 0)
+		(at 166.37 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1760,7 +1770,7 @@
 		(uuid "771b79d5-0731-40f5-a348-f337bf999ab3")
 	)
 	(label "24v"
-		(at 166.37 134.62 0)
+		(at 166.37 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1769,18 +1779,19 @@
 		)
 		(uuid "78eb693e-591b-4880-8926-d9fbd9f0077b")
 	)
-	(label "24v"
-		(at 81.28 41.91 180)
+	(label "3.3v"
+		(at 144.78 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify right bottom)
 		)
-		(uuid "819371cd-185d-4f5b-a66c-7161f9b038ed")
+		(uuid "a037ef99-df6a-4ea5-bd02-5efdea94be3c")
 	)
 	(label "5v"
-		(at 81.28 39.37 180)
+		(at 74.93 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1788,6 +1799,17 @@
 			(justify right bottom)
 		)
 		(uuid "a625cac5-68b1-43a7-813d-553864fdc0f6")
+	)
+	(label "3.3v"
+		(at 166.37 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7f66e59-8382-438c-9248-50143f160a49")
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
@@ -1797,10 +1819,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ad66230-fba6-4c42-b62a-24145b4d39fb")
 		(property "Reference" "U1"
-			(at 121.5233 62.23 0)
+			(at 119.888 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1830,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
-			(at 121.5233 64.77 0)
+			(at 119.888 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,16 +2115,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x18_Socket")
-		(at 148.59 91.44 0)
+		(at 151.13 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e0a8edc1-b2b5-4d71-b612-7b752e5fda80")
 		(property "Reference" "J1"
-			(at 149.86 91.4399 0)
+			(at 148.082 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2132,7 @@
 			)
 		)
 		(property "Value" "Conn_01x18_Socket"
-			(at 149.86 93.9799 0)
+			(at 139.954 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 91.44 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 91.44 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2159,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x18, script generated"
-			(at 148.59 91.44 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2265,7 @@
 			)
 		)
 		(pin "24v" output
-			(at 163.83 134.62 0)
+			(at 163.83 133.35 0)
 			(uuid "0b9396ef-2dd7-42fa-8c2d-657da0479c68")
 			(effects
 				(font
@@ -2255,7 +2275,7 @@
 			)
 		)
 		(pin "5v" output
-			(at 163.83 139.7 0)
+			(at 163.83 138.43 0)
 			(uuid "0841e28b-31eb-4ec5-9a9c-67bb870de3f6")
 			(effects
 				(font
@@ -2265,8 +2285,18 @@
 			)
 		)
 		(pin "12v" output
-			(at 163.83 137.16 0)
+			(at 163.83 135.89 0)
 			(uuid "39c8e4e8-121c-4512-9366-37ea208ae5cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3.3v" output
+			(at 163.83 140.97 0)
+			(uuid "35ba3f1e-f578-4788-ba54-e64241c319c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2313,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 36.83)
+		(at 147.32 36.83)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2299,7 +2329,7 @@
 		)
 		(uuid "49ec2df7-9ac7-4c40-ae1d-d5a1cc856075")
 		(property "Sheetname" "Digital_block"
-			(at 137.16 36.1184 0)
+			(at 147.32 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,12 +2338,42 @@
 			)
 		)
 		(property "Sheetfile" "Digital.kicad_sch"
-			(at 137.16 50.1146 0)
+			(at 147.32 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Out_D1" output
+			(at 172.72 41.91 0)
+			(uuid "a7b3a299-3cf4-47a7-8531-3f5227fcd736")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Digital_S1" input
+			(at 147.32 44.45 180)
+			(uuid "13ff53f5-fd9e-413f-b248-9a75f7668000")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3v" input
+			(at 147.32 41.91 180)
+			(uuid "0e2426b9-bd46-40b5-805d-ac0d8dc2f394")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2325,7 +2385,7 @@
 		)
 	)
 	(sheet
-		(at 82.55 36.83)
+		(at 76.2 36.83)
 		(size 24.13 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2341,7 +2401,7 @@
 		)
 		(uuid "804aaf2e-9bb2-42e3-a4c6-6a56f293d8de")
 		(property "Sheetname" "Relay_Block"
-			(at 82.55 36.1184 0)
+			(at 76.2 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2410,7 @@
 			)
 		)
 		(property "Sheetfile" "Relay.kicad_sch"
-			(at 82.55 50.1146 0)
+			(at 76.2 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,38 +2418,8 @@
 				(justify left top)
 			)
 		)
-		(pin "Out_R_NO" output
-			(at 106.68 41.91 0)
-			(uuid "56590069-3367-42a2-af1b-649ff64b7437")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Out_R_NC" output
-			(at 106.68 44.45 0)
-			(uuid "951c1d01-69a0-4f9c-986b-c68273561fe8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "R_Signal1" input
-			(at 82.55 44.45 180)
-			(uuid "8a0d700a-240d-4401-bab8-5a2726cb48ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "5v" input
-			(at 82.55 39.37 180)
+			(at 76.2 39.37 180)
 			(uuid "cbc99fba-fd9e-458e-8e1f-aea640870172")
 			(effects
 				(font
@@ -2398,9 +2428,9 @@
 				(justify left)
 			)
 		)
-		(pin "24V" input
-			(at 82.55 41.91 180)
-			(uuid "13608175-34b6-4cc3-9af3-fb69789177df")
+		(pin "Out_Relay" input
+			(at 76.2 44.45 180)
+			(uuid "50116090-586c-4f64-82f5-e87400abacb1")
 			(effects
 				(font
 					(size 1.27 1.27)
