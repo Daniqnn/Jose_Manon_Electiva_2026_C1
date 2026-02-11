@@ -1741,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 41.91) (xy 147.32 41.91)
+			(xy 139.7 41.91) (xy 142.24 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1780,7 +1780,7 @@
 		(uuid "78eb693e-591b-4880-8926-d9fbd9f0077b")
 	)
 	(label "3.3v"
-		(at 144.78 41.91 180)
+		(at 139.7 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2313,7 +2313,7 @@
 		)
 	)
 	(sheet
-		(at 147.32 36.83)
+		(at 142.24 36.83)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2329,7 +2329,7 @@
 		)
 		(uuid "49ec2df7-9ac7-4c40-ae1d-d5a1cc856075")
 		(property "Sheetname" "Digital_block"
-			(at 147.32 36.1184 0)
+			(at 142.24 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2338,7 @@
 			)
 		)
 		(property "Sheetfile" "Digital.kicad_sch"
-			(at 147.32 50.1146 0)
+			(at 142.24 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2347,7 @@
 			)
 		)
 		(pin "Out_D1" output
-			(at 172.72 41.91 0)
+			(at 167.64 41.91 0)
 			(uuid "a7b3a299-3cf4-47a7-8531-3f5227fcd736")
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 			)
 		)
 		(pin "Digital_S1" input
-			(at 147.32 44.45 180)
+			(at 142.24 44.45 180)
 			(uuid "13ff53f5-fd9e-413f-b248-9a75f7668000")
 			(effects
 				(font
@@ -2367,7 +2367,7 @@
 			)
 		)
 		(pin "3.3v" input
-			(at 147.32 41.91 180)
+			(at 142.24 41.91 180)
 			(uuid "0e2426b9-bd46-40b5-805d-ac0d8dc2f394")
 			(effects
 				(font
@@ -2478,6 +2478,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 110.49 137.16 180)
+			(uuid "59ecd079-854e-46c1-80b4-be493b7f555f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Out_Analogic" output
+			(at 135.89 137.16 0)
+			(uuid "5a7a4d4c-54f7-4a48-b91f-b8df42ba683a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "0-10v" input
+			(at 110.49 139.7 180)
+			(uuid "149e1049-344b-44e8-8456-fd85ca226bc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
