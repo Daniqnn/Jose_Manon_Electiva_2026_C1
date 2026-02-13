@@ -1741,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 41.91) (xy 142.24 41.91)
+			(xy 140.97 41.91) (xy 142.24 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1780,7 +1780,7 @@
 		(uuid "78eb693e-591b-4880-8926-d9fbd9f0077b")
 	)
 	(label "3.3v"
-		(at 139.7 41.91 180)
+		(at 140.97 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2550,6 +2550,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "-" input
+			(at 109.22 44.45 180)
+			(uuid "be6aeefc-1356-438c-82e3-e6cc535614f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+" input
+			(at 109.22 40.64 180)
+			(uuid "e3ca82f2-0141-4f45-9f64-2e2535d83c2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3V" input
+			(at 134.62 43.18 0)
+			(uuid "c7c23792-e7c3-4ded-8c40-b7862cc38d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
