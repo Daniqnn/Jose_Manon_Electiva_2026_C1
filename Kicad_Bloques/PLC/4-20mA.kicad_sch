@@ -643,6 +643,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "4-20mA Input"
+		(exclude_from_sim no)
+		(at 88.392 61.468 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "3e6b8f3f-1fa8-4621-8632-e82b8427b660")
+	)
 	(junction
 		(at 113.03 72.39)
 		(diameter 0)
@@ -865,6 +877,21 @@
 			(justify right)
 		)
 		(uuid "f0d1738b-de7f-4e54-9e6a-1c7c24689258")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 171.45 54.61) (xy 68.58 54.61) (xy 68.58 96.52) (xy 171.45 96.52)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 89b698ca-88c0-4cf1-97db-dbe09577a2c6)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

@@ -1701,6 +1701,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 43.18) (xy 140.97 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f207bd5-5904-44e5-9687-3b3b012fdb4e")
+	)
+	(wire
+		(pts
 			(xy 163.83 135.89) (xy 166.37 135.89)
 		)
 		(stroke
@@ -1708,6 +1718,16 @@
 			(type default)
 		)
 		(uuid "2fba0855-dc27-406b-bb8c-d091168b8670")
+	)
+	(wire
+		(pts
+			(xy 140.97 43.18) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffeacaf-294c-4722-ac62-e258672b3569")
 	)
 	(wire
 		(pts
@@ -2575,6 +2595,16 @@
 		(pin "3.3V" input
 			(at 134.62 43.18 0)
 			(uuid "c7c23792-e7c3-4ded-8c40-b7862cc38d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Output_4-20mA" output
+			(at 134.62 45.72 0)
+			(uuid "fa510e61-43f2-4e51-ba5b-9cb4db3bded9")
 			(effects
 				(font
 					(size 1.27 1.27)
