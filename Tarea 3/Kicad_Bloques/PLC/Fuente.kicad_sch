@@ -307,42 +307,43 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode_Bridge:ABS2"
+		(symbol "Diode:SB120"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 2.54 6.985 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "ABS2"
-				(at 2.54 5.08 0)
+			(property "Value" "SB120"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:Diode_Bridge_Diotec_ABS"
-				(at 3.81 3.175 0)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf"
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -351,7 +352,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.8A If, ABS SMD package"
+			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
 				(at 0 0 0)
 				(effects
 					(font
@@ -360,7 +361,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "rectifier acdc"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -369,7 +370,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Diode*Bridge*Diotec*ABS*"
+			(property "ki_fp_filters" "D*DO?41*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -378,13 +379,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "ABS2_0_1"
+			(symbol "SB120_0_1"
 				(polyline
 					(pts
-						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -393,10 +394,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 2.54) (xy -2.54 1.27) (xy -1.905 3.175) (xy -3.81 2.54)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -405,79 +406,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 3.81) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -3.81 -2.54) (xy -1.905 -3.175) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 3.81) (xy 3.175 1.905) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -1.905) (xy 1.27 -2.54) (xy 2.54 -3.81) (xy 3.175 -1.905)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -488,65 +417,11 @@
 					)
 				)
 			)
-			(symbol "ABS2_1_1"
+			(symbol "SB120_1_1"
 				(pin passive line
-					(at -7.62 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "+"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -554,6 +429,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1213,7 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 45.72) (xy 35.56 45.72)
+			(xy 33.02 45.72) (xy 40.64 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1463,6 +1356,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 43.18) (xy 41.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a1dbae-4099-4dae-af54-6ac7c548b179")
+	)
+	(wire
+		(pts
 			(xy 200.66 54.61) (xy 207.01 54.61)
 		)
 		(stroke
@@ -1493,16 +1396,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 43.18) (xy 35.56 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b38af0ba-d6f6-4c57-ac14-fd701268d434")
-	)
-	(wire
-		(pts
 			(xy 93.98 54.61) (xy 93.98 58.42)
 		)
 		(stroke
@@ -1530,26 +1423,6 @@
 			(type default)
 		)
 		(uuid "c9ce1487-398f-4a66-a099-9f5477dc19ab")
-	)
-	(wire
-		(pts
-			(xy 35.56 36.83) (xy 48.26 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ced24427-6f75-4c9b-b8c7-2a2d3ecb0ded")
-	)
-	(wire
-		(pts
-			(xy 33.02 43.18) (xy 35.56 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d00b792d-c057-4b39-ac0d-2ca81519ad01")
 	)
 	(wire
 		(pts
@@ -1593,16 +1466,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 52.07) (xy 48.26 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e14ba6db-1f45-4ed5-9ee5-8b4f64da823a")
-	)
-	(wire
-		(pts
 			(xy 198.12 44.45) (xy 200.66 44.45)
 		)
 		(stroke
@@ -1610,16 +1473,6 @@
 			(type default)
 		)
 		(uuid "f3c7bf4a-04b3-48ff-b2ba-e439677d808e")
-	)
-	(wire
-		(pts
-			(xy 35.56 45.72) (xy 35.56 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f483e8b5-c1a1-4921-a0c5-5a0755bb6250")
 	)
 	(wire
 		(pts
@@ -1655,7 +1508,7 @@
 	)
 	(hierarchical_label "24v"
 		(shape output)
-		(at 55.88 44.45 0)
+		(at 41.91 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1904,6 +1757,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SB120")
+		(at 36.83 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a6f9c2b-776e-4626-9646-ae5b229fc9a6")
+		(property "Reference" "D2"
+			(at 37.1475 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SB120"
+			(at 37.1475 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 36.83 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6b9c4bf-558c-4834-8826-c00acb230c3a")
+		)
+		(pin "2"
+			(uuid "b78b1cbc-fc09-49ad-9465-435c2a246c90")
+		)
+		(instances
+			(project ""
+				(path "/0c134be8-0195-4dcb-8651-b565a497cc9a/27cd8fbd-b108-47b8-ac4c-6fc7885b5b3e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 104.14 50.8 0)
 		(unit 1)
@@ -1974,83 +1895,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode_Bridge:ABS2")
-		(at 48.26 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5007505a-1b48-4f16-909b-6f6dbab5f99a")
-		(property "Reference" "D2"
-			(at 48.514 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ABS2"
-			(at 48.26 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Diode_Bridge_Diotec_ABS"
-			(at 52.07 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf"
-			(at 48.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.8A If, ABS SMD package"
-			(at 48.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "609161d2-b6dc-4d8a-9a2c-6547038791dd")
-		)
-		(pin "1"
-			(uuid "7a188693-e339-4f2a-a9f1-defaf1894f06")
-		)
-		(pin "2"
-			(uuid "7e15ca36-e4b4-48a6-8e2f-9901457ae7c2")
-		)
-		(pin "4"
-			(uuid "0c1bb012-ab74-49ef-ae33-de7fb5c1f383")
-		)
-		(instances
-			(project ""
-				(path "/0c134be8-0195-4dcb-8651-b565a497cc9a/27cd8fbd-b108-47b8-ac4c-6fc7885b5b3e"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 40.64 44.45 270)
+		(at 40.64 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2059,7 +1905,7 @@
 		(fields_autoplaced yes)
 		(uuid "75e33f55-95ac-404a-a00a-1db70cedc154")
 		(property "Reference" "#PWR02"
-			(at 34.29 44.45 0)
+			(at 46.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,15 +1914,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 40.64 90)
+			(at 44.45 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 44.45 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +1932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 44.45 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +1941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 44.45 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
