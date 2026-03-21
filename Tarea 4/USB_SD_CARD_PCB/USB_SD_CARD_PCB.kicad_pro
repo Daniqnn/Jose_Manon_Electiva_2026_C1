@@ -508,7 +508,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "USB_SD_CARD_PCB.step",
       "svg": "",
       "vrml": ""
     },
