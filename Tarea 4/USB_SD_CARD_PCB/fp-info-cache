@@ -1,4 +1,4 @@
-47679427953481714
+47686523880312170
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62195,6 +62195,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EasyEDA
+FPC-SMD_30P-P0.50_FPC-05FB-30PH20
+
+
+0
+32
+32
+EasyEDA
 HDR-TH_14P-P2.54-H-M-R2-C7-S2.54
 
 
@@ -62202,12 +62209,33 @@ HDR-TH_14P-P2.54-H-M-R2-C7-S2.54
 14
 14
 EasyEDA
+HDR-TH_16P-P2.54-H-M-R2-C8-S2.54
+
+
+0
+16
+16
+EasyEDA
 SIM-SMD_SMC-202-6
 
 
 0
 10
 10
+EasyEDA
+SOT-23-5_L2.9-W1.6-P0.95-LS2.9-BL
+
+
+0
+5
+5
+EasyEDA
+TF-SMD_TF-115
+
+
+0
+15
+13
 EasyEDA
 USB-C-SMD_LCK-TCF809-L117YL-G1
 
